@@ -3,23 +3,31 @@
 layout: home
 
 hero:
-  name: "Ipush Docs"
-  text: "Ipush Documentation"
-  tagline: My great project tagline
+  name: "Ipush"
+  tagline: Real-time communication framework
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Dashboard
+      link: https://app.ipush.id
+    - theme: brand
+      text: Documentation
+      link: /docs
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<script setup>
+import Pricing from './components/Pricing.vue'
+import IpushFooter from './components/IpushFooter.vue'
+</script>
+
+<section>
+
+## About Us
+
+We're here to help you build real-time applications effortlessly. Similar to Pusher, our platform provides the tools you need to create apps that communicate instantly. Whether you're designing a chat app, collaborative tool, or live data dashboard, we've got you covered. Our easy-to-use interface and clear guides make development a breeze for everyone. Join us and bring your real-time ideas to life!
+
+</section>
+
+<Pricing/>
+
+<IpushFooter/>
