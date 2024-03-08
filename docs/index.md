@@ -63,7 +63,6 @@ $data['message'] = "Hello world!";
 
 $ipush->trigger("my-channel", "my-event", $data);
 
-
 ?>
 
 ```

@@ -11,7 +11,7 @@ hero:
       link: https://app.ipush.id
     - theme: brand
       text: Documentation
-      link: /docs
+      link: /docs/index.html
 
 ---
 
