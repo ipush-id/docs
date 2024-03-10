@@ -2,9 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Ipush",
+  title: " ",
   description: "Ipush Documentation",
   themeConfig: {
+    logo: {
+      light: '/logo-light.png',
+      dark: '/logo-dark.png'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
