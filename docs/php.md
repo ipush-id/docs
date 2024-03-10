@@ -7,7 +7,7 @@ If you don't have `composer.json` file yet, you need to run `composer init` firs
 Run in terminal: 
 
 ```sh
-composer require zuramai/ipush
+composer require ipush/ipush
 ```
 
 ## Basic Usage
@@ -17,7 +17,7 @@ composer require zuramai/ipush
 <?php 
 require __DIR__ . '/vendor/autoload.php';
 
-use Zuramai\Ipush\Ipush;
+use Ipush\Ipush;
 
 $ipush = new Ipush(
     // API URL

@@ -46,7 +46,7 @@ This is the basic usage example to use Ipush. You can check [ipush-example](http
 <?php 
 require __DIR__ . '/vendor/autoload.php';
 
-use Zuramai\Ipush\Ipush;
+use Ipush\Ipush;
 
 $ipush = new Ipush(
     // API URL
